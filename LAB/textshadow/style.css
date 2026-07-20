@@ -1,0 +1,65 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+/* text-shadow */
+
+h2 {
+    font-size: 40px;
+    text-shadow: 5px 5px 5px red;
+    
+}
+
+/* 1. Elment Selector */
+
+p {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+/* 2. Class Selector */
+
+.highlight {
+    background: yellow;
+    padding: 5px;
+}
+
+/* 3. ID Selector */
+
+#main-hender {
+    background: rgb(225, 0, 255);
+    color: white;
+    padding: 10px
+}
+
+/* 3.1 ID Selector */
+
+#header {
+    background: blue;
+    color:black;
+    padding: 10px
+}
+
+body {
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* Attribute Selector [type="text"] */
+
+input[type="text"]{
+    border: 2px solid blue;
+    padding: 8 px;
+    border-radius: 5 px;
+}
+
+input[type="text"]{
+    border-color: rgb(225, 0, 128);
+    outline: none;
+    background-color: #fff0fa;
+}
