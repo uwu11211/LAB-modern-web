@@ -1,0 +1,21 @@
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 2px solid #ccc;
+    height: 200px;
+}
+
+.item {
+    background-color:navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.stretch .item {
+    background-color: teal;
+    height: auto;
+}

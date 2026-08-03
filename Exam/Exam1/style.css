@@ -1,0 +1,87 @@
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  background: #f0f2f5;
+  font-family: Arial, "Noto Sans Thai", sans-serif;
+}
+
+.form-box {
+  position: relative;
+  width: 380px;
+  max-width: 100%;
+  padding: 22px 18px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-style: normal;
+  color: #1c1e21;
+}
+
+.subtitle {
+  margin: 3px 0 14px;
+  font-size: 15px;
+  color: #606770;
+}
+
+/*ชื่อ นามสกุล วันเกิด*/
+.row {
+  display: flex;
+  max-width: 100%;
+  gap: 9px;
+  margin-bottom: 10px;
+}
+
+/* ช่อง */
+input,select {
+  width: 93%;
+  padding: 10px 10px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  background: #f5f6f7;
+  font-size: 14px;
+}
+
+/* เบอร์โทร อีเมล และรหัสผ่าน */
+.form-box > input {
+  margin-bottom: 10px;
+}
+
+
+/* เลือกเพศ */
+.gender {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 11px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 14px;
+}
+
+.gender input {
+  width: auto;
+}
+
+
+/* ปุ่มสมัคร */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #36a420;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
