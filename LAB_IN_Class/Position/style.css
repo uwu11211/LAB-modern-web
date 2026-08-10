@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 1200px;
+}
+
+.box {
+    width: 200px;
+    height: 80px;
+    background-color: #4da6ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.static-box {
+    position: static;
+    background-color: #6c8cff;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #ff8c42;
+}
+
+.relative-parent {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background: #dddd;
+    margin-bottom: 40px;
+    border: 2px dashed gray;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    background: #4dff88;
+}
