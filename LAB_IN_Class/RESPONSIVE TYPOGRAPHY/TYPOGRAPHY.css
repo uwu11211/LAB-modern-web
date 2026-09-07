@@ -1,0 +1,16 @@
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 18px;
+    }
+}
