@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Loop Practice</title>
+</head>
+<body>
+
+  <button onclick="runLoopPractice()">Run Code</button>
+  <div id="output" style="white-space: pre-line; background-color: #1e1e1e; color: #fff;"></div>
+
+  <script>
+    function runLoopPractice() {
+      console.clear();
+      let outputText = "";
+      let maxNumber = 10;
+
+      for (let i = 0; i <= maxNumber; i++) {
+        let type = (i % 2 === 0) ? "(คู่)" : "(คี่)";
+        let line = `${i} ${type}`;
+        outputText += line + "\n";
+        console.log(line);
+      }
+
+      for (let i = 0; i <= maxNumber; i += 2) {
+        let line = `นับทีละ 2: ${i}`;
+        outputText += line + "\n";
+        console.log(line);
+      }
+
+      for (let i = 10; i >= 0; i--) {
+        let line = `ถอยหลัง: ${i}`;
+        outputText += line + "\n";
+        console.log(line);
+      }
+
+      document.getElementById("output").textContent = outputText;
+    }
+  </script>
+
+</body>
+</html>
