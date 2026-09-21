@@ -1,0 +1,17 @@
+<h3>ผลลัพธ์บนหน้าเว็บ:</h3>
+<div id="output">กำลังรับ....</div>
+<p><strong>หมายเหตุ:</strong> ผลลัพธ์จะถูกแสดงใน <span style="color: red;">Console จริง</span> ด้วย</p>
+
+<script>
+    let output = "";
+
+    for (let i = 0, j = 100; i != j; i += 5, j -= 5){
+        output += `i = ${i}, j = ${j}\n`;
+        console.log("i = %d, j = %d", i, j);
+    }
+
+    output += "loop ended";
+    console.log("Loop ended");
+
+    document.getElementById("output").textContent = output;
+</script>

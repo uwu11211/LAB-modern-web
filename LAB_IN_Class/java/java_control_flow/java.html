@@ -1,0 +1,27 @@
+<div id="outputBox">ผลลัพธ์จะปรากฎที่นี่</div>
+<button onclick="runDemo()">Run Code</button>
+
+<script>
+function runDemo() {
+    const output = [];
+
+    let score = 72;
+
+    if (score >= 50) {
+        output.push("ผลสอบ: ผ่าน");
+        console.log("ผลสอบ: ผ่าน");
+    } else {
+        output.push("ผลสอบ: ไม่ผ่าน");
+        console.log("ผลสอบ: ไม่ผ่าน");
+    }
+
+    for (let i = 0; i < 5; i++) {
+        output.push("รอบที่: " + i);
+        console.log("รอบที่: ", i);
+    }
+
+    document.getElementById("outputbox").textContent = output.join("\n");
+}
+
+
+</script>
